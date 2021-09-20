@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2256aa0a-a3bc-4c00-8fa5-683ec83aa01b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ManimVideos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/test_convex_hull.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testing/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/Tau.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/Tau_person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/Tau_person_looks_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/audio/bensound-dreams.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/audio/bensound-india.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/audio/bensound-littleidea.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/bubble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/bubble_rightwards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/chalk_board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/delta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/delta_person_teal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/pi_plain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/pngs/Tau_person_cane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/pngs/delta_person_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/pngs/delta_person_lavendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/pngs/delta_person_peach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/pngs/delta_person_teal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/speech_bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/assets/thought_cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/chan_algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/dump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0079e539c2bb727b.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0079e539c2bb727b.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0079e539c2bb727b.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0079e539c2bb727b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0079e539c2bb727b.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/02f7d6af5f7b94b7.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/02f7d6af5f7b94b7.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/02f7d6af5f7b94b7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/02f7d6af5f7b94b7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/02f7d6af5f7b94b7.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0b74352f61c0d29d.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0b74352f61c0d29d.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0b74352f61c0d29d.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0b74352f61c0d29d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0b74352f61c0d29d.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0f3ccd5562128687.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0f3ccd5562128687.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0f3ccd5562128687.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0f3ccd5562128687.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/0f3ccd5562128687.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/158f8e923450d74a.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/158f8e923450d74a.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/158f8e923450d74a.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/158f8e923450d74a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/158f8e923450d74a.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/1d3c18bd90f3ad90.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/1d3c18bd90f3ad90.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/1d3c18bd90f3ad90.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/1d3c18bd90f3ad90.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/1d3c18bd90f3ad90.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/24c6bfbf409f0f18.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/24c6bfbf409f0f18.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/24c6bfbf409f0f18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/24c6bfbf409f0f18.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/24c6bfbf409f0f18.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/253746357ae59828.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/253746357ae59828.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/253746357ae59828.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/253746357ae59828.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/253746357ae59828.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/306637a34c9f63e4.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/306637a34c9f63e4.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/306637a34c9f63e4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/306637a34c9f63e4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/306637a34c9f63e4.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3caa0818166bf8bb.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3caa0818166bf8bb.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3caa0818166bf8bb.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3caa0818166bf8bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3caa0818166bf8bb.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3d052336c1e3bf0f.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3d052336c1e3bf0f.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3d052336c1e3bf0f.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3d052336c1e3bf0f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3d052336c1e3bf0f.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3f4b96403c3dd62d.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3f4b96403c3dd62d.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3f4b96403c3dd62d.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3f4b96403c3dd62d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/3f4b96403c3dd62d.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/43a6ad07c113d74f.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/43a6ad07c113d74f.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/43a6ad07c113d74f.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/43a6ad07c113d74f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/43a6ad07c113d74f.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/48fe6decb02f8c3f.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/48fe6decb02f8c3f.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/48fe6decb02f8c3f.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/48fe6decb02f8c3f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/48fe6decb02f8c3f.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56d3dc830a188b52.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56d3dc830a188b52.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56d3dc830a188b52.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56d3dc830a188b52.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56d3dc830a188b52.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56ecf6ca81d69f65.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56ecf6ca81d69f65.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56ecf6ca81d69f65.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56ecf6ca81d69f65.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/56ecf6ca81d69f65.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5aba430e657913e2.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5aba430e657913e2.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5aba430e657913e2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5aba430e657913e2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5aba430e657913e2.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5ae072d0e0fd537e.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5ae072d0e0fd537e.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5ae072d0e0fd537e.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5ae072d0e0fd537e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/5ae072d0e0fd537e.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/628e9ed513a452c8.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/628e9ed513a452c8.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/628e9ed513a452c8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/628e9ed513a452c8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/628e9ed513a452c8.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/62b770e1e765e463.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/62b770e1e765e463.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/62b770e1e765e463.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/62b770e1e765e463.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/62b770e1e765e463.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/6c5374d2878f23bf.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/6c5374d2878f23bf.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/6c5374d2878f23bf.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/6c5374d2878f23bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/6c5374d2878f23bf.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/8e702e54148568e5.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/8e702e54148568e5.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/8e702e54148568e5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/8e702e54148568e5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/8e702e54148568e5.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/909344e1705bc73c.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/909344e1705bc73c.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/909344e1705bc73c.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/909344e1705bc73c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/909344e1705bc73c.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/957bc2d10c45e9f8.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/957bc2d10c45e9f8.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/957bc2d10c45e9f8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/957bc2d10c45e9f8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/957bc2d10c45e9f8.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/9f555629e552b431.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/9f555629e552b431.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/9f555629e552b431.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/9f555629e552b431.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/9f555629e552b431.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b488689ca7898ce1.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b488689ca7898ce1.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b488689ca7898ce1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b488689ca7898ce1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b488689ca7898ce1.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b910226398b1ba89.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b910226398b1ba89.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b910226398b1ba89.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b910226398b1ba89.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/b910226398b1ba89.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/ba1872d0c3832cbd.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/ba1872d0c3832cbd.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/ba1872d0c3832cbd.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/ba1872d0c3832cbd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/ba1872d0c3832cbd.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/be2011bd7d40b30b.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/be2011bd7d40b30b.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/be2011bd7d40b30b.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/be2011bd7d40b30b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/be2011bd7d40b30b.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf0de3ea404b757d.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf0de3ea404b757d.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf0de3ea404b757d.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf0de3ea404b757d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf0de3ea404b757d.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf57ac52580a22ce.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf57ac52580a22ce.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf57ac52580a22ce.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf57ac52580a22ce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/bf57ac52580a22ce.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c1900441c99c1cf8.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c1900441c99c1cf8.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c1900441c99c1cf8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c1900441c99c1cf8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c1900441c99c1cf8.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c2a7e295cf7ba1eb.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c2a7e295cf7ba1eb.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c2a7e295cf7ba1eb.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c2a7e295cf7ba1eb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/c2a7e295cf7ba1eb.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d71ac7ead9d1e0c7.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d71ac7ead9d1e0c7.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d71ac7ead9d1e0c7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d71ac7ead9d1e0c7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d71ac7ead9d1e0c7.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d903bdf59fd9f413.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d903bdf59fd9f413.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d903bdf59fd9f413.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d903bdf59fd9f413.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/d903bdf59fd9f413.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f108869271867378.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f108869271867378.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f108869271867378.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f108869271867378.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f108869271867378.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f3834af52af44d1c.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f3834af52af44d1c.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f3834af52af44d1c.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f3834af52af44d1c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/f3834af52af44d1c.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fad7fe6b42cfcf11.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fad7fe6b42cfcf11.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fad7fe6b42cfcf11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fad7fe6b42cfcf11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fad7fe6b42cfcf11.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fb161f74b24925b8.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fb161f74b24925b8.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fb161f74b24925b8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fb161f74b24925b8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fb161f74b24925b8.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fd6bb89279826710.aux" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fd6bb89279826710.dvi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fd6bb89279826710.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fd6bb89279826710.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/Tex/fd6bb89279826710.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/Plot1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/Plot1v2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/Plot3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/Plot5.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/Plot6.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/Plot7.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/PlotGraph.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/PlotSinCos.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1v2/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1v2/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1v2/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot1v2/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot3/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot3/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot3/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot3/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot5/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot5/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot5/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot5/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot6/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot6/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot6/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot6/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot7/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot7/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot7/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/Plot7/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotGraph/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotGraph/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotGraph/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotSinCos/00000.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotSinCos/00001.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotSinCos/00002.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotSinCos/00003.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/media/videos/tob_plotgraph/480p15/partial_movie_files/PlotSinCos/partial_movie_file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/from_web/tob_plotgraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/graham_scan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/jarvis_march.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convex_hull/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_attempt/scene.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/QuadraticEquation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula10e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula11e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula12e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula13e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula14e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula15e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula16e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula1e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula2e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula3e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula4e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula5e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula6e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula7e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula8e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formula9e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/formulas/formulas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_equation_downloaded/svg_classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/Tau.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/Tau_person.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/Tau_person_looks_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/audio/bensound-dreams.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/audio/bensound-india.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/audio/bensound-littleidea.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/bubble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/bubble_rightwards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/chalk_board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/delta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/delta_person_teal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/pi_plain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/pngs/Tau_person_cane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/pngs/delta_person_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/pngs/delta_person_lavendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/pngs/delta_person_peach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/pngs/delta_person_teal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/speech_bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/thought_cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/Professor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/crazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/happy_cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/student-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/student.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/student_reading_book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/thinking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/assets/unused/uninterested.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/derivation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/derivation_old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/formulas/formula_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quadratic_roots_derivation/scribbles.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iSSgWIAOiK6yc9Av7ONCFViHwx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Convex Hull" />
+      <recent name="$PROJECT_DIR$/quadratic_roots_derivation/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/convex_hull" />
+      <recent name="$PROJECT_DIR$/quadratic_roots_derivation/formulas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.video">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tob_plotgraph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ManimTrial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/ManimTrial/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convex_hull/from_web" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convex_hull/from_web/tob_plotgraph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convex_hull" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convex_hull/video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ManimTrial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/ManimTrial/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convex_hull" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convex_hull/video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_convex_hull.TestConvexHull.test_group_split" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_convex_hull.TestConvexHull.test_group_split&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_convex_hull.TestConvexHull.test_random_point_generator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_convex_hull.TestConvexHull.test_random_point_generator&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="ManimVideos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tob_plotgraph" />
+      <item itemvalue="Python.video" />
+      <item itemvalue="Python tests.Unittests for test_convex_hull.TestConvexHull.test_group_split" />
+      <item itemvalue="Python tests.Unittests for test_convex_hull.TestConvexHull.test_random_point_generator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.video" />
+        <item itemvalue="Python.video" />
+        <item itemvalue="Python.tob_plotgraph" />
+        <item itemvalue="Python tests.Unittests for test_convex_hull.TestConvexHull.test_random_point_generator" />
+        <item itemvalue="Python tests.Unittests for test_convex_hull.TestConvexHull.test_group_split" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2256aa0a-a3bc-4c00-8fa5-683ec83aa01b" name="Default Changelist" comment="" />
+      <created>1601899611440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601899611440</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1632158824254">
+      <screen x="0" y="23" width="1680" height="914" />
+    </state>
+    <state x="519" y="301" key="com.intellij.ide.util.TipDialog/0.23.1680.885@0.23.1680.885" timestamp="1624465078346" />
+    <state x="519" y="310" key="com.intellij.ide.util.TipDialog/0.23.1680.914@0.23.1680.914" timestamp="1632158824254" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Testing/tests.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Testing/test_convex_hull.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Testing/test_convex_hull.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Testing/test_convex_hull.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Testing/test_convex_hull.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
